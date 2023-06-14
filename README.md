@@ -60,16 +60,10 @@ cd hyprland-blackarch
 cp -r hypr cava kitty rofi starship zsh waybar neofetch ~/.config
 
 
- ## prompt 
-```
+
 mv .zshenv ~/
 
-
-```
-
-```
 mv .scripts ~/
-
 ```
 
 
