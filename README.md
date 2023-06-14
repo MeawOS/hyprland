@@ -1,4 +1,4 @@
-* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
+c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
 * **Shell** • [Zsh ](https://www.zsh.org) 🐚 con [starship](https://github.com/starship/starship) Cross Shell Platform!
 *  💻
 * **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
@@ -50,16 +50,25 @@ thunar thunar-archive-plugin file-roller
 ##### Clone Repo
 
 ```sh 
+git clone https://github.com/MeawOS/hyprland-blackarch
+cd hyprland-blackarch
 
+```
+
+#### config  :3
+```
+cp -r hypr cava kitty rofi starship zsh waybar neofetch ~/.config
+
+
+ ## prompt 
+```
+mv .zshenv ~/
 
 
 ```
 
-#### As fonts i'm using **Cartograph CF** (patched with nerdfont) It's a licensed font, then select any font you like :3
 ```
-
-
-```
+mv .scripts ~/
 
 ```
 
