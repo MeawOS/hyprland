@@ -17,22 +17,24 @@ c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Ti
 #### Using paru as AUR helper 
 
 ```sh
-# install paru... 
-mkdir $HOME/Downloads/_cloned-repos
-cd $HOME/Downloads/_cloned-repos
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si  
+# install yay
+
+sudo pacman -S base-devel
+sudo pacman -S git
+
+cd /opt
+sudo git clone https://aur.archlinux.org/yay.git
+
+chmod +x yay
+cd yay
+makepkg -si
+
 ```
 
 #### Installing needed dependencies 📦
 	
 ```sh
-paru -S hyprland-git  rofi dunst  swaylock-fancy-git swayidle pamixer light brillo
-       \
-wl-clipboard wf-recorder wlogout grimblast-git hyprpicker-git  \
-swaybg fnm-bin  ffmpegthumbnailer tumbler wtype colord kitty       \
-imagemagick swaylock-effects qt5-wayland qt6-wayland ripgrep waybar-hyprland-git nerd-fonts-complete-starship   
+yay  -Sy hyprland-git  rofi dunst  swaylock-fancy-git swayidle pamixer light brillo wl-clipboard wf-recorder wlogout grimblast-git hyprpicker-git swaybg fnm-bin  ffmpegthumbnailer tumbler wtype colord kitty imagemagick swaylock-effects qt5-wayland qt6-wayland ripgrep waybar-hyprland-git nerd-fonts-complete-starship   
 ```
 
 **Extras*
