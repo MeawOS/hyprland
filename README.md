@@ -1,4 +1,4 @@
-[![Esta es una imagen de ejemplo] (/1691206525847.jpg)
+![Esta es una imagen de ejemplo](/1691206525847.jpg)
 
 
 c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
