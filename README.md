@@ -1,5 +1,5 @@
 
-![Esta es una imagen de ejemplo] (https://raw.githubusercontent.com/MeawOS/hyprland-blackarch/main/1691206525847.jpg)
+![Esta es una imagen de ejemplo] [(https://raw.githubusercontent.com/MeawOS/hyprland-blackarch/main/1691206525847.jpg)]
 
 
 c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
