@@ -1,7 +1,7 @@
 ![Esta es una imagen de ejemplo](/1691206525847.jpg)
 
 
-c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
+* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
 * **Shell** • [Zsh ](https://www.zsh.org) 🐚 con [starship](https://github.com/starship/starship) Cross Shell Platform!
 *  💻
 * **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
@@ -14,7 +14,7 @@ c* **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Ti
 
 
 
-#### Using paru as AUR helper 
+#### Using yay as AUR helper 
 
 ```sh
 # install yay
@@ -40,10 +40,10 @@ yay  -Sy hyprland-git  rofi dunst  swaylock-fancy-git swayidle pamixer light bri
 **Extras*
 ```sh
 # themes
-paru -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub-theme-git nwg-look-bin
+yay -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub-theme-git nwg-look-bin
 
 # apps
-paru -S cava pavucontrol ranger zsh starship neovim viewnior noise-suppression-for-voice
+yay -S cava pavucontrol ranger zsh starship neovim viewnior 
 ```
 
 **If you want a Graphical file-manager*
